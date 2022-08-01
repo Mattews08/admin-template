@@ -2,7 +2,7 @@ import React, {ReactNode} from 'react'
 import Header from './Header'
 import Content from './Content'
 import SideBar from './SideBar'
-import useAppData from '../data/hook/useAppData'
+import useAppData from '../../data/hook/useAppData'
 
 type LayoutProps = {
     title: string

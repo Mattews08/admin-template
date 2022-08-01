@@ -31,8 +31,7 @@ export default function ButtonTheme(props: ButtonThemeProps) {
   ) : (
     <div
       onClick={props.altTheme}
-      className={`hidden 
-      sm:flex 
+      className={`hidden sm:flex 
       items-center 
       justify-between
       cursor-pointer 
